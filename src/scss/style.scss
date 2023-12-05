@@ -1,0 +1,21 @@
+svg,
+video {
+  position: absolute;
+  pointer-events: none;
+}
+
+svg {
+  display: none;
+  z-index: 2;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+
+  .clear,
+  .stats {
+    //position: relative;
+    //z-index: 2;
+  }
+}
